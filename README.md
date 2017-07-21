@@ -45,28 +45,28 @@ creating an application (i.e. Dialog) in WCS
 3. Call the space basicWCSLab and click Create
 4. Click on the catalog button at the top navigation on the right
 5. Select "Watson" on the left navigation under the Services menu
-4. Click on "Conversation"
+6. Click on "Conversation"
 
 ![Architecture Overview](/images/basicWCS_catalog.png)	 
 
-5. In the service name basicWCSlab-WCSservice.  You can leave credential name as is, if you like.
-6. Click on the create in the lower right corner. You should now see the following
+7. In the service name basicWCSlab-WCSservice.  You can leave credential name as is, if you like.
+8. Click on the create in the lower right corner. You should now see the following
 
 ![Architecture Overview](/images/basicWCS_manage.png)
 
-7.  Click on **Launch Tool**
+9.  Click on **Launch Tool**
 
-8.  Click on **"Service Credentials"** on the left navigation, right under "Manage". Once the page has loaded, click on "View Credentials" on the right side of the screen.  A drop down will show with your specific credentials
+10.  Click on **"Service Credentials"** on the left navigation, right under "Manage". Once the page has loaded, click on "View Credentials" on the right side of the screen.  A drop down will show with your specific credentials
 
 ![Architecture Overview](/images/basicWCS_credentials.png)
 Your values for username and password will be different than shown.
 
-9. Click the copy icon to copy the values to your clipboard. Paste the values in a text file for later use. Make sure you get both:
+11. Click the copy icon to copy the values to your clipboard. Paste the values in a text file for later use. Make sure you get both:
 
 - username
 - password
 
-10. Go back to the manage page, by clicking on the manage link on the left side navigation. This will take you back to the manage page.
+12. Go back to the manage page, by clicking on the manage link on the left side navigation. This will take you back to the manage page.
 
 You have now completed the first step in creating the WCS service instance.
 
@@ -248,12 +248,14 @@ Click **Done** when finished.
 You have now finished creating all of the intents. (Nice Job!)
 
 ## Create Entities
-Next we want to create some **Entities**. Click on the "Entities" link at the top of the page.
+Next we want to create some **Entities**. 
+
+1.  Click on the "Entities" link at the top of the page.
 
 ![Architecture Overview](/images/basicWCS_workspaces_entities-add.png)
 
-1. Click the **"Create New"** button.
-2. Type **"Moods"** as the new Entity name.
+2. Click the **"Create New"** button.
+3. Type **"Moods"** as the new Entity name.
 
 
 Now notice, you need to add examples of new "VacationType" entities. So add **"Happy"** as a new entity
@@ -269,7 +271,7 @@ excited			psyched	thrilled	pumped
 ```
 ![Architecture Overview](/images/basicWCS_workspaces-entities-moods.png)
 
-If for some reason you accidentally don't add one of the synonyms, you can add it after you click the done button. You just select the entity and add the appropriate synonyms.
+Note:  If for some reason you accidentally don't add one of the synonyms, you can add it after you click the done button. You just select the entity and add the appropriate synonyms.
 
 Click **Done** when finished.
 
@@ -299,7 +301,7 @@ Hello.  Welcome to the Amazing Magical Eight Ball.  How can I help you today?
 ``` 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-click-welcome.png)
 
-Click the green X.
+Click the **green X**.
 
 3. We now want to create our own node, based on the "Intents" we create earlier. To add a new node in the tree, click on the "Welcome"
 node,  and then click on the **"Add Node"** icon.
