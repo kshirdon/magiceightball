@@ -2,7 +2,7 @@
 
 ## Architecture
 Below is the architecture overview of the Watson Conversation (WCS) Lab.  This architecture
-is consistent with the reference implementations of WCS for cloud native applications using microservices.
+is consistent with the reference implementations of WCS for cloud native applications using microservices.  <Diagram will be provided in future revision>
 ![Architecture Overview](/images/wk2-arch-overview.png)
 
 
@@ -85,7 +85,7 @@ You have now completed the first step in creating the WCS service instance.
 ![Architecture Overview](/images/basicWCS_workspaces_create_popup.png)
 
 
-5. Click the last icon (Back to workspaces) on the left navigation. It should look like
+5. Click the icon on bottom (Back to workspaces) on the left navigation. It should look like:
 
 ![Architecture Overview](/images/basicWCS_conversation_workspaces_small.png)
 
@@ -101,7 +101,7 @@ You should now see:
 
 ![Architecture Overview](/images/basicWCS_workspace_tile.png)
 
-You should now see
+You should now see:
 
 ![Architecture Overview](/images/basicWCS_workspace_tile_submenu.png)
 
@@ -386,3 +386,25 @@ Then click on the **Ask another question** node.
 ![Architecture Overview](/images/basicWCS-nomorequestions.png)
 
 We are now finished with the entire Dialog. Congratulations! Now is time to test your code.
+
+## Testing your code
+
+1.  Click on the message bubble in the upper right hand corner of the WCS tooling.
+
+![Architecture Overview](/images/basicWCS-basicWCS_messagebubble)
+
+2.  A window will open up on the right hand side of your screen.  Type **Hi**.  You should see the response "Hello.  Welcome to the AMAZING MAGICAL EIGHT BALL!  How can I help you?
+
+3. Type **May I ask a question**.  You should see the response "Sure you can! But first, why don't you tell me how you're feeling today?". 
+
+4.  Type **I am feeling excited**.  You should see the response "I bet you are excited! I would be too if I was in the presence of the Amazing Eight Ball. Compose yourself, and ask me a question."
+
+5. Now feel free to ask any question that you would ask a normal magic eight ball.  Remember that the magic eight ball can only answer questions about your future which are in a yes/no answer format.  Here is an example:
+
+```
+Will I win the lottery?
+```
+
+The magic eight ball responded "As I see it yes" (note you may or may not receive this response since the results are random).  At this point you can ask additional questions by typing **yes** or you can conclude your session by typing **no**.
+
+This concludes the Basic WCS Conversation Lab.  Congratulations!
