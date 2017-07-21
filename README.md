@@ -54,19 +54,17 @@ creating an application (i.e. Dialog) in WCS
 
 ![Architecture Overview](/images/basicWCS_manage.png)
 
-9.  Click on **Launch Tool**
-
-10.  Click on **"Service Credentials"** on the left navigation, right under "Manage". Once the page has loaded, click on "View Credentials" on the right side of the screen.  A drop down will show with your specific credentials
+9.  Click on **"Service Credentials"** on the left navigation, right under "Manage". Once the page has loaded, click on "View Credentials" on the right side of the screen.  A drop down will show with your specific credentials
 
 ![Architecture Overview](/images/basicWCS_credentials.png)
 Your values for username and password will be different than shown.
 
-11. Click the copy icon to copy the values to your clipboard. Paste the values in a text file for later use. Make sure you get both:
+10. Click the copy icon to copy the values to your clipboard. Paste the values in a text file for later use. Make sure you get both:
 
 - username
 - password
 
-12. Go back to the manage page, by clicking on the manage link on the left side navigation. This will take you back to the manage page.
+11. Go back to the manage page, by clicking on the manage link on the left side navigation. This will take you back to the manage page.
 
 You have now completed the first step in creating the WCS service instance.
 
