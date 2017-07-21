@@ -82,8 +82,9 @@ You have now completed the first step in creating the WCS service instance.
 
 ![Architecture Overview](/images/basicWCS_workspaces_create_popup.png)
 
+5.  Click **Create**
 
-5. Click the icon on bottom (Back to workspaces) on the left navigation. It should look like:
+6.  Click the icon on bottom (Back to workspaces) on the left navigation. It should look like:
 
 ![Architecture Overview](/images/basicWCS_conversation_workspaces_small.png)
 
@@ -95,7 +96,7 @@ You should now see:
 
 ![Architecture Overview](/images/basicWCS_workspaces_dash.png)
 
-6. Click on the **three green buttons** in the upper right corner of your workspace tile.
+7. Click on the **three green buttons** in the upper right corner of your workspace tile.
 
 ![Architecture Overview](/images/basicWCS_workspace_tile.png)
 
@@ -103,17 +104,17 @@ You should now see:
 
 ![Architecture Overview](/images/basicWCS_workspace_tile_submenu.png)
 
-7. Click **View Details**. You should now see something like the following
+8. Click **View Details**. You should now see something like the following
 
 ![Architecture Overview](/images/basicWCS_workspace_tile_viewdetails.png)
 
-8. Copy the **Workplace ID** and paste it somewhere for use later.
+9. Copy the **Workplace ID** and paste it somewhere for use later.
 
-9. Click on the **White Back Arrow** in the upper corner of the tile.
+10. Click on the **White Back Arrow** in the upper corner of the tile.
 
 ![Architecture Overview](/images/basicWCS_workspace_detail_convid.png)
 
-10. Click **Get Started** or anywhere in the tile, to get started.
+11. Click **Get Started** or anywhere in the tile, to get started.
 
 ![Architecture Overview](/images/basicWCS_workspace_tile_getstarted.png)
 
@@ -291,22 +292,16 @@ What you see are two "Dialog Nodes". The first is the standard "Welcome" message
 is a catch-all "Anything else" . Remember the way a conversation dialog works is by scanning from the top of the tree
 and evaluating every node until a condition is met that satisfies the question being asked. So when the conversation starts
 WCS will respond with the "Welcome" Node. If you click on the "Welcome" node you will see that the standard Watson response
-is "Hello. How can I help you?" - change that response to:
-
-```
-Hello.  Welcome to the Amazing Magical Eight Ball.  How can I help you today?
-
-``` 
-![Architecture Overview](/images/basicWCS_workspaces-dialog-click-welcome.png)
+is "Hello. How can I help you?".
 
 Click the **green X**.
 
 3. We now want to create our own node, based on the "Intents" we create earlier. To add a new node in the tree, click on the "Welcome"
-node,  and then click on the **"Add Node"** icon.
+node, and then click on the **"Add Node"** icon.
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-newnode.png)
 
-4. Type **Greetings** as the name of the node. If bot recognize should be **"#Greeting"**. The Response condition should be set to "True", by clicking on the **Add response condition** button. Provide the following text.
+4. Click on the new node and type **Greetings** as the name of the node. If bot recognize should be **"#Greeting"**. The Response condition should be set to "True", by clicking on the **Add response condition** button. Provide the following text.
 
 ```
 Hello.  Welcome to the Amazing Magical Eight Ball.  How can I help you today?
@@ -319,20 +314,20 @@ It should look similar to the following:
 
 You can click the **green X** in the upper right to close the dialog node editor.
 
-5. Again create another root node by clicking on the **"Greeting"** node and then clicking **"Add node"**. This will add another node. This node's values are as follows:
+5. Again create another root node by clicking on the **"Greetings"** node and then clicking **"Add node"**. This will add another node. This node's values are as follows:
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-setmood.png)
 
 You can click the **green X** in the upper right to close the dialog node editor.
 
-6. Again create another root node by clicking on the **"Greeting"** node and then clicking **"Add node"**. This will add another node. This node's values are as follows:
+6. Again create another root node by clicking on the **"Set Mood"** node and then clicking **"Add node"**. This will add another node. This node's values are as follows:
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-showcompassion1.png)
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-showcompassion2.png)
 
 You can click the **green X** in the upper right to close the dialog node editor.
 
-7. Create a new node under the **"Greeting"** node, called **Answer a Question**. Copy and paste the possible responses from the following:
+7. Create a new node under the **"Show Compassion"** node, called **Answer a Question**. Copy and paste the possible responses from the following:
 
 ```
 As I see it, yes
@@ -361,7 +356,7 @@ You may rely on it
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-answeraquestion2.png)
 
-8. Create a node under by clicking on **"Greeting"** called **Ask Another Question**, with the following information:
+8. Create a node under by clicking on **"Answer a Question"** called **Ask Another Question**, with the following information:
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-askanotherquestion.png)
 
