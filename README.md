@@ -391,7 +391,7 @@ We are now finished with the entire Dialog. Congratulations! Now is time to test
 
 1.  Click on the message bubble in the upper right hand corner of the WCS tooling.
 
-![Architecture Overview](/images/basicWCS-basicWCS_messagebubble.png)
+![Architecture Overview](/images/basicWCS_messagebubble.png)
 
 2.  A window will open up on the right hand side of your screen.  Type **Hi**.  You should see the response "Hello.  Welcome to the AMAZING MAGICAL EIGHT BALL!  How can I help you?
 
