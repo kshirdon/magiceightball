@@ -356,6 +356,10 @@ You may rely on it
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-answeraquestion2.png)
 
+Make sure you select **Set to Random** so the magic eight ball gives you a random forture.  
+
+Click the **green X**
+
 8. Create a node under by clicking on **"Answer a Question"** called **Ask Another Question**, with the following information:
 
 ![Architecture Overview](/images/basicWCS_workspaces-dialog-node-askanotherquestion.png)
